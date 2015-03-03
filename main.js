@@ -8,7 +8,7 @@ define(function (require, exports, module) {
     
     // the interval for which nothing should be changed to cause a save action
     // so if you type something every AUTOSAVE_INTERVAL seconds, the document will not be saved
-    var AUTOSAVE_INTERVAL = 3 * 1000; // 3s
+    var AUTOSAVE_INTERVAL = 100; // 3s
     
     
     var wsURI = "ws://localhost:1235";
